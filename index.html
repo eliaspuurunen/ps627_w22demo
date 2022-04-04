@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Smoking vs. Lung Cancer</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1a5fc837-1d22-4da6-af2e-5931611bebbc" data-root-id="1001"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1111">
+          {"b7f162eb-22d7-4b5a-9ceb-a32822c3ded9":{"roots":{"references":[{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1016"}]},"id":"1017","type":"Toolbar"},{"attributes":{"data":{"Value":{"__ndarray__":"AAAAAAAAWUB65Sk847pYwLR/Tc2KpFjAgOKlMZiFWMAb/aRQsrFYwLDu/peu2lLAeuUpPOO6WMAAAAAAAABZQGPXx9WZ0VhArEaSxGTNWEDsfyPgMq5YQKa+6ncUaFNAtH9NzYqkWMBj18fVmdFYQAAAAAAAAFlAvFhcd7yUWEAztXovmoRYQIViJ2D37FNAgOKlMZiFWMCsRpLEZM1YQLxYXHe8lFhAAAAAAAAAWUCrrRL8lW9YQG54918xQFNAG/2kULKxWMDsfyPgMq5YQDO1ei+ahFhAq60S/JVvWEAAAAAAAABZQEkFY9Mx91JAsO7+l67aUsCmvup3FGhTQIViJ2D37FNAbnj3XzFAU0BJBWPTMfdSQAAAAAAAAFlA","dtype":"float64","order":"little","shape":[36]},"X":["Year","Year","Year","Year","Year","Year","PercentSmokers","PercentSmokers","PercentSmokers","PercentSmokers","PercentSmokers","PercentSmokers","PercentMaleSmokers","PercentMaleSmokers","PercentMaleSmokers","PercentMaleSmokers","PercentMaleSmokers","PercentMaleSmokers","PercentFemaleSmokers","PercentFemaleSmokers","PercentFemaleSmokers","PercentFemaleSmokers","PercentFemaleSmokers","PercentFemaleSmokers","LungCancerPer100","LungCancerPer100","LungCancerPer100","LungCancerPer100","LungCancerPer100","LungCancerPer100","UnemploymentRate","UnemploymentRate","UnemploymentRate","UnemploymentRate","UnemploymentRate","UnemploymentRate"],"Y":["Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate","Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate","Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate","Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate","Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate","Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate"],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]},"selected":{"id":"1037"},"selection_policy":{"id":"1038"}},"id":"1020","type":"ColumnDataSource"},{"attributes":{},"id":"1006","type":"CategoricalScale"},{"attributes":{"factors":["Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate"]},"id":"1004","type":"FactorRange"},{"attributes":{"fill_color":{"field":"Value","transform":{"id":"1019"}},"height":{"units":"data","value":1},"line_color":{"value":"#1f77b4"},"width":{"units":"data","value":1},"x":{"field":"X"},"y":{"field":"Y"}},"id":"1022","type":"Rect"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Value","transform":{"id":"1019"}},"height":{"units":"data","value":1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"width":{"units":"data","value":1},"x":{"field":"X"},"y":{"field":"Y"}},"id":"1023","type":"Rect"},{"attributes":{},"id":"1014","type":"CategoricalTicker"},{"attributes":{},"id":"1008","type":"CategoricalScale"},{"attributes":{"axis":{"id":"1010"},"ticker":null},"id":"1012","type":"Grid"},{"attributes":{"source":{"id":"1020"}},"id":"1025","type":"CDSView"},{"attributes":{"formatter":{"id":"1036"},"ticker":{"id":"1011"}},"id":"1010","type":"CategoricalAxis"},{"attributes":{},"id":"1011","type":"CategoricalTicker"},{"attributes":{},"id":"1036","type":"CategoricalTickFormatter"},{"attributes":{"below":[{"id":"1010"}],"center":[{"id":"1012"},{"id":"1015"}],"left":[{"id":"1013"}],"renderers":[{"id":"1024"}],"right":[{"id":"1028"}],"sizing_mode":"stretch_width","title":{"id":"1031"},"toolbar":{"id":"1017"},"x_range":{"id":"1002"},"x_scale":{"id":"1006"},"y_range":{"id":"1004"},"y_scale":{"id":"1008"}},"id":"1001","subtype":"Figure","type":"Plot"},{"attributes":{"high":100.0,"low":-100.0,"palette":["#08306b","#08519c","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef","#deebf7","#f7fbff"]},"id":"1019","type":"LinearColorMapper"},{"attributes":{"callback":null,"tooltips":[["Variables","@X vs. @Y"],["Correlation","@Value%"]]},"id":"1016","type":"HoverTool"},{"attributes":{"axis":{"id":"1013"},"dimension":1,"ticker":null},"id":"1015","type":"Grid"},{"attributes":{},"id":"1034","type":"CategoricalTickFormatter"},{"attributes":{"text":""},"id":"1031","type":"Title"},{"attributes":{"data_source":{"id":"1020"},"glyph":{"id":"1022"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1023"},"selection_glyph":null,"view":{"id":"1025"}},"id":"1024","type":"GlyphRenderer"},{"attributes":{"color_mapper":{"id":"1019"},"formatter":{"id":"1027"},"label_standoff":6,"ticker":{"id":"1026"}},"id":"1028","type":"ColorBar"},{"attributes":{"format":"%d%%"},"id":"1027","type":"PrintfTickFormatter"},{"attributes":{},"id":"1038","type":"UnionRenderers"},{"attributes":{"factors":["Year","PercentSmokers","PercentMaleSmokers","PercentFemaleSmokers","LungCancerPer100","UnemploymentRate"]},"id":"1002","type":"FactorRange"},{"attributes":{"desired_num_ticks":9},"id":"1026","type":"BasicTicker"},{"attributes":{},"id":"1037","type":"Selection"},{"attributes":{"formatter":{"id":"1034"},"ticker":{"id":"1014"}},"id":"1013","type":"CategoricalAxis"}],"root_ids":["1001"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1111').textContent;
+                  var render_items = [{"docid":"b7f162eb-22d7-4b5a-9ceb-a32822c3ded9","root_ids":["1001"],"roots":{"1001":"1a5fc837-1d22-4da6-af2e-5931611bebbc"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
